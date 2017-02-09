@@ -1,0 +1,23 @@
+[app] (name=fbrun)
+  [Position]	(WINCENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=wterm) (class=XTerm)
+  [Head]	{0}
+  [Dimensions]	{774 189}
+  [Position]	(UPPERLEFT)	{653 666}
+  [Deco]	{NONE}
+  [Sticky]	{yes}
+  [Layer]	{12}
+  [Alpha]	{255}
+[end]
+[app] (name=gecko) (class=Thunderbird-bin)
+  [Workspace]	{3}
+  [Jump]	{yes}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+  [Workspace]	{2}
+  [Dimensions]	{1440 873}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
