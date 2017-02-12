@@ -1,0 +1,19 @@
+[begin] (fluxbox)
+      [exec] ( )
+      [exec] (Shell [C-F1]) { rxvt -geometry 80x40 -sl 10000 +sb } 
+      [exec] (Root Shell [C-F2]) { rxvt -geometry 80x40 -sl 10000 +sb -e su - root } 
+[separator]
+      [exec] (Browser    [W-c]) {/srv/chrome} 
+      [exec] (Deutsch    [W-d]) {setxkbmap -model pc105 de nodeadkeys} 
+      [exec] (English    [W-e]) {setxkbmap -model pc105 us} 
+[submenu] (System Tools)
+      [exec]   (Top)       {rxvt +sb -e htop} 
+[end]
+[submenu] (Fluxbox)
+	[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
+[separator]
+      [Exit] (Exit [C-A-BS]) 
+	[exec]	(Shutdown){rxvt -geometry 80x10 -sl +sb -e sudo systemctl poweroff}
+      [exec] ( )
+[end]
