@@ -1,10 +1,8 @@
-# Fluxbox dotfiles
-
-
-# Fluxbox configuration
+# fluxbox
+Configuration for fluxbox window manager.
 
 ## What is this?
-Configuration for fluxbox window manager. The files included here normally reside in admin users home directory `~/.fluxbox`. 
+The files included here normally reside in admin users home directory `~/.fluxbox`. 
 
 Fluxbox is a lightning fast window manager which is very good suited for running on 
 * home servers (in case you need a browser or window applications there) 
